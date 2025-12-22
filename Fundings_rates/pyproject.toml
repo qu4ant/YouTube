@@ -1,0 +1,43 @@
+[project]
+name = "funding-rates-analysis"
+version = "0.1.0"
+description = "Analyse des funding rates et basis pour le trading crypto"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "GT", email = "contact@example.com" }]
+keywords = ["crypto", "trading", "funding-rates", "basis", "analysis"]
+
+dependencies = [
+    "duckdb>=0.8.0",
+    "pandas>=1.3.0",
+    "numpy>=1.20.0",
+    "bokeh>=3.0.0",
+    "jupyter>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.black]
+line-length = 100
+target-version = ["py39"]
