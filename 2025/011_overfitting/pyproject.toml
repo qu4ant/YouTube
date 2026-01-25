@@ -1,0 +1,16 @@
+[project]
+name = "overfitting"
+version = "0.1.0"
+description = "Overfitting in algorithmic trading - notebook visualizations"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "jupyter",
+    "ipykernel",
+    "bokeh>=3.8.2",
+    "vectorbt>=0.26.0",
+    "yfinance>=0.2.0",
+    "scikit-learn>=1.0.0",
+]

@@ -1,0 +1,49 @@
+[project]
+name = "youtube-tutorials"
+version = "1.0.0"
+description = "Environnement unifié pour les tutoriels trading algorithmique"
+requires-python = ">=3.12"
+
+dependencies = [
+    # Core
+    "numpy>=2.0.0",
+    "pandas>=2.2.0",
+    "scipy>=1.14.0",
+
+    # Visualization
+    "matplotlib>=3.9.0",
+    "plotly>=5.24.0",
+    "bokeh>=3.6.0",
+    "seaborn>=0.13.0",
+
+    # Data & Databases
+    "duckdb>=1.1.0",
+    "pyarrow>=18.0.0",
+    "sqlalchemy>=2.0.0",
+
+    # Machine Learning & Stats
+    "scikit-learn>=1.5.0",
+    "statsmodels>=0.14.0",
+
+    # Financial Data
+    "yfinance>=0.2.50",
+    "python-binance>=1.0.27",
+
+    # Technical Analysis & Backtesting
+    "pandas-ta>=0.3.14b",
+    "vectorbt>=0.26.2",
+    "riskfolio-lib>=6.0.0",
+
+    # Network & Async
+    "requests>=2.32.0",
+    "nest-asyncio>=1.6.0",
+
+    # Jupyter
+    "jupyter>=1.1.0",
+    "ipykernel>=6.29.0",
+    "ipywidgets>=8.1.0",
+
+    # Utilities
+    "python-dateutil>=2.9.0",
+    "hurst>=0.0.5",
+]
